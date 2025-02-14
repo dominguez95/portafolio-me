@@ -22,7 +22,6 @@ const toastLiveExample = document.getElementById('liveToast')
 
 if (habilidades.length > 0) {
     habilidades.forEach(e => {
-        console.log(e);
         contenedor.innerHTML += `
         <div class="col-lg-12">
         <label for="label" class="fw-bold mt-2">${e.name}</label>
@@ -63,3 +62,17 @@ if (habilidades.length > 0) {
     })
 
 })()
+
+// hide menu when use movil
+document.addEventListener("DOMContentLoaded", function () {
+    const navLinks = document.querySelectorAll(".navbar-nav .nav-link");
+    const navbarCollapse = document.querySelector(".navbar-collapse");
+
+    navLinks.forEach(function (link) {
+        link.addEventListener("click", function () {
+            if (window.innerWidth < 992) { // Solo en móviles
+                new bootstrap.Collapse(navbarCollapse).hide();
+            }
+        });
+    });
+});
