@@ -29,3 +29,12 @@ La organización de archivos en este proyecto es la siguiente:
 - **`/assets/css`** → Archivos CSS para el diseño y estilos del proyecto.  
 - **`/assets/js`** → Contiene scripts de JavaScript para la funcionalidad.  
 - **`README.md`** → Documentación del proyecto.  
+
+## 🎨 Inspiración y referencias
+
+El proyecto tomó como referencia las siguientes landing pages:
+
+- **Secciones según opción del menú:** [DesignToCodes](https://live.designtocodes.com/OnePage/NextGenAppsPro/index.html)  
+- **Diseño minimalista:** [StartBootstrap](https://startbootstrap.com/previews/personal)  
+
+Algunas secciones y elementos visuales fueron adaptados tomando ideas de estas referencias.
